@@ -2,13 +2,26 @@
 
 .all_body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(192, 185, 185);
 }
 
-
+.header{
+    background: white;
+    width: 120%;
+    margin-left:-10%;
+}
+.body_except_header{
+    background: white;
+    margin-top:5%;
+}
+.dropdown{
+    position: relative;
+}
 
 .latitude{
     background: rgb(15, 156, 145);
     color:white;
+    left:10%;
 }
 
 .latidute_text{
@@ -17,19 +30,29 @@
     margin: 10% 20% 10% 20%;
     text-align: center;
     font-weight: bold;
-
-    
 }
 
 .baslik{
     font-weight: bold;
     color: rgb(15, 156, 145);
+
+}
+.comparison_baslik{
+    font-weight: bold;
+    color: rgb(15, 156, 145);
+    text-align: center;
+
+}
+
+.comparision_left_box{
+    background: white;
 }
 .buttons{
     font-size: 16px;
     text-align: center;
     margin-top: 1%;
-    
+    color:white;
+    left:5%;
 }
 
 .poles{
@@ -107,4 +130,18 @@
     width: 80%;
     margin-left:10%;
     margin-bottom: 5%;
+}
+
+.comparision_pngs{
+    width: 90%;
+    margin:5%;
+}
+
+.comparison_second_row_header{
+    margin-left:5%;
+
+}
+
+.clik_note{
+    margin: 5%;
 }

@@ -1,4 +1,110 @@
 
-.head{
-    backgraund:yellow;
+
+.all_body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.latitude{
+    background: rgb(15, 156, 145);
+    color:white;
+}
+
+.latidute_text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin: 10% 20% 10% 20%;
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+
+.baslik{
+    font-weight: bold;
+    color: rgb(15, 156, 145);
+}
+.buttons{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 1%;
+    
+}
+
+.poles{
+    float: left;
+    margin:3%;
+}
+.comparison{
+    float: left;
+    margin:3%;
+}
+.data{
+    float: left;
+    margin:3%;
+}
+
+.main_box{
+    margin: 3% 0% 3% 0%;
+    
+
+    width: 60%;
+}
+.right_box{
+    
+    width: 38%;
+
+    margin: 3% 1% 3% 1%;
+}
+.main_box_content{
+    margin:10% 1% 5% 1%;
+}
+
+.temperature{
+    width: 50%;
+    float: left;
+    margin: 1% 5% 1% 2%;
+    
+}
+
+.first_p_in_summary{
+    margin: 1%;
+    
+}
+
+.second_p_in_summary{
+    margin: 5%;
+
+    
+}
+
+.temp{
+    width: 46%;
+    float: left;
+    margin:2% ;
+}
+
+.humidity{
+    width: 46%;
+    margin:2%;
+    float: left;
+}
+
+.cloudiness{
+    width: 46%;
+    margin:2%;
+    float: left;
+}
+
+.wind_speed{
+    width: 46%;
+    margin:2%;
+    float: left;
+}
+
+.temp_png{
+    width: 80%;
+    margin-left:10%;
+    margin-bottom: 5%;
 }

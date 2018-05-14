@@ -1,7 +1,7 @@
 
 
 .all_body{
-    font-family: 'Indie Flower', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: rgb(192, 185, 185);
 
 }
@@ -26,7 +26,7 @@
 }
 
 .latidute_text{
-    font-family: 'Indie Flower', cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     font-size: 24px;
     margin: 10% 20% 10% 20%;
     text-align: center;
@@ -148,7 +148,10 @@
 }
 
 #dropdown_btn{
-    
     border:none;
+    
 }
 
+.comparison{
+    text-decoration: none;
+  }

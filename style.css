@@ -31,6 +31,7 @@
     margin: 10% 20% 10% 20%;
     text-align: center;
     font-weight: bold;
+    
 }
 
 .baslik{
@@ -154,4 +155,21 @@
 
 .comparison{
     text-decoration: none;
-  }
+}
+
+
+.table, th, td {
+   border: 0.1px gray solid;
+ }
+
+ .dataframe{
+     margin:5%;
+     width: 90%;
+     text-align: center;
+ }
+
+ .t_s_r_text{
+     font-size: medium;
+     margin-top: 5%;
+     margin-left: 5%;
+ }

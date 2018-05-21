@@ -7,7 +7,6 @@
 
 .header{
     background: white;
-    
     margin-left:-10%;
 }
 .body_except_header{
@@ -71,9 +70,10 @@
 }
 
 .main_box{
+    width: 60%;
     margin: 3% 0% 3% 0%;
     background: white;
-    width: 60%;
+   
 }
 .right_box{
     width: 38%;

@@ -8,6 +8,7 @@
 .header{
     background: white;
     margin-left:-10%;
+    width:120%;
 }
 .body_except_header{
     background: white;
@@ -53,7 +54,7 @@
     text-align: center;
     margin-top: 1%;
     color:white;
-    right: 5%;
+    right: 5%
 }
 
 .poles{
@@ -71,12 +72,12 @@
 
 .main_box{
     width: 60%;
-    margin: 3% 0% 3% 0%;
+    margin-top: 3%;
     background: white;
    
 }
 .right_box{
-    width: 38%;
+    width: 38%px;
     background: white;
     margin: 3% 1% 3% 1%;
 }
@@ -175,3 +176,82 @@
     font-style: italic;
     
 }
+
+
+@media (max-width: 1200px) {
+    .dropdown{
+        position: relative;
+        right:10%;
+    }
+    
+    .latitude{
+        background: rgb(15, 156, 145);
+        color:white;
+        width: 300px;
+        left:10%;
+        
+    }
+
+    .buttons{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 1%;
+        color:white;
+        left: 40%;
+    }
+    
+    .poles{
+        float: left;
+        margin:3%;
+    }
+    .comparison{
+        float: left;
+        margin:3%;
+    }
+    .data{
+        float: left;
+        margin:3%;
+    }
+
+    .main_box{
+        width: 90%;
+        margin: 3% 0% 3% 0%;
+        background: white;
+       
+    }
+    .right_box{
+        width: 90%;
+        background: white;
+        margin: 3% 1% 3% 1%;
+    }
+    
+      .box-3 {
+        display: none;
+      } 
+    
+      
+.temp{
+    width: 90%;
+    float: left;
+    margin:2% ;
+}
+
+.humidity{
+    width: 90%;
+    margin:2%;
+    float: left;
+}
+
+.cloudiness{
+    width: 90%;
+    margin:2%;
+    float: left;
+}
+
+.wind_speed{
+    width: 90%;
+    margin:2%;
+    float: left;
+}
+  
+    }
